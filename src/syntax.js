@@ -1,4 +1,3 @@
-import { html } from './html'
 
 const codes = {
   horizontalTab: -2,
@@ -171,5 +170,4 @@ function wikiLink (opts = {}) {
 
 export {
   wikiLink as syntax,
-  html
 }
