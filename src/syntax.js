@@ -16,7 +16,7 @@ function markdownLineEnding (code) {
 }
 
 function wikiLink (opts = {}) {
-  const aliasDivider = opts.aliasDivider || ':'
+  const aliasDivider = opts.aliasDivider || '|'
 
   const aliasMarker = aliasDivider
   const startMarker = '[['
