@@ -16,7 +16,7 @@ const config = [
       format: 'esm'
     },
     plugins: [
-      commonjs(),
+      //commonjs(),
       babel({
         babelHelpers: 'runtime',
         exclude: ['node_modules/**']
@@ -37,10 +37,10 @@ const config = [
       }
     ],
     plugins: [
-      babel({
+     /* babel({
         babelHelpers: 'runtime',
-        exclude: ['node_modules/**']
-      })
+        exclude: ['node_modules/!**']
+      })*/
     ],
     external: external
   }
