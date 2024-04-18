@@ -169,5 +169,5 @@ function wikiLink (opts = {}) {
 }
 
 export {
-  wikiLink as syntax,
+  wikiLink as syntax
 }

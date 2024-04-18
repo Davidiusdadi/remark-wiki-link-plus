@@ -1,5 +1,5 @@
 import { syntax } from './syntax'
-import { toMarkdown } from 'mdast-util-wiki-link'
+import { toMarkdown } from './to-markdown'
 import { fromMarkdown, wikiLinkTransclusionFormat } from './from-markdown'
 
 let warningIssued
@@ -33,6 +33,8 @@ function wikiLinkPlugin (opts = { markdownFolder: '' }) {
   add('fromMarkdownExtensions', fromMarkdown(opts))
   add('toMarkdownExtensions', toMarkdown(opts))
 }
+
+
 
 wikiLinkPlugin.wikiLinkPlugin = wikiLinkPlugin
 export default wikiLinkPlugin
