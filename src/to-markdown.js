@@ -1,5 +1,6 @@
-// adapted from mdast-util-wiki-link
-import safe from 'mdast-util-to-markdown/lib/util/safe';
+
+import safe from './save/safe.js';
+
 
 function toMarkdown() {
     var opts = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
