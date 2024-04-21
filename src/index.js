@@ -1,6 +1,6 @@
 import { syntax } from './syntax.js'
 import { toMarkdown } from './to-markdown.js'
-import { fromMarkdown, wikiLinkTransclusionFormat } from './from-markdown.js'
+import { fromMarkdown } from './from-markdown.js'
 
 let warningIssued
 
